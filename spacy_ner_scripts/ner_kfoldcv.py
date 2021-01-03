@@ -35,11 +35,11 @@ import train #place the train.py file in the same folder you are executing from
 @plac.annotations(
 	gpu=("Use gpu y = yes to enable gpu", "option", "gpu", str),
 	nproc=("Number of simultaneous worker processes to run", "option", "nproc", int),
-    model=("Model name. Defaults to blank 'en' model.", "option", "m", str),
+    	model=("Model name. Defaults to blank 'en' model.", "option", "m", str),
 	vocab=("Vocab name. This is the word vectos model", "option", "v", str),
 	input_dir=("Required: the location where all the train test sets are located", "option", "i", Path),
-    output_dir=("Requires: where to write the model folders", "option", "o", Path),
-    n_iter=("Number of training iterations", "option", "n", int),
+    	output_dir=("Requires: where to write the model folders", "option", "o", Path),
+    	n_iter=("Number of training iterations", "option", "n", int),
 	dropout=("Dropout", "option", "d", float),
 	batchsize=("Max compounding batch Size", "option", "b", float)
 )
