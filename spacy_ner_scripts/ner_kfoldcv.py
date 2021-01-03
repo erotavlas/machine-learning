@@ -30,7 +30,7 @@ import os
 import sys
 from pathlib import Path
 
-import train #place the train.py file in the same folder you are executing from
+import ner_train # place the ner_train.py file in the same folder you are executing from
 
 @plac.annotations(
 	gpu=("Use gpu y = yes to enable gpu", "option", "gpu", str),
