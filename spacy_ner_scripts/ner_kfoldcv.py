@@ -8,7 +8,7 @@ Starting off with an existing model or a blank model.
 Will train nproc number of folds simultaneously
 Use argument -gpu y to enable gpu processing if available
 
-NOTE: Requires train.py to be present in the same folder as this script 
+NOTE: Requires ner_train.py to be present in the same folder as this script 
 
 Compatible with: spaCy v2.0.0+
 Last tested with: v2.1.8
